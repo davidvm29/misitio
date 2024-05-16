@@ -28,7 +28,7 @@ jobs:
 
     - name: Deploy to GitHub Pages
       env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        GITHUB_TOKEN: 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
       run: |
         ghp-import output
         git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/davidvm29/misitio.git gh-pages
