@@ -31,4 +31,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
       run: |
         ghp-import output
-        git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/tu-usuario/mi-sitio-pelican.git gh-pages
+        git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/davidvm29/misitio.git gh-pages
